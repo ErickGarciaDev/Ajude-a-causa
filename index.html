@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <span class="title">ONG</span> 
+            <span class="subtitle">Ajude a Causa</span>
+        </h1>
+        <nav>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <div class="form-container">
+        <form action="" id="form">
+            <label for="name">
+                Nome do participante:
+                <input type="text" required name="name" id="name">
+            </label>
+            <label for="idade">
+                Idade:
+                <input type="number" required name="idade" id="idade">
+            </label>
+            <label for="email">
+                E-mail:
+                <input type="email" required name="email" id="email">
+            </label>
+            <label for="tamanho-camiseta">
+                Tamanho da Camiseta:
+                <select name="tamanho-camiseta" id="tamanho-camiseta">
+                    <option disabled selected>Selecione um tamanho</option>
+                    <option>P</option>
+                    <option>M</option>
+                    <option>G</option>
+                    <option>GG</option>
+                    <option>XG</option>
+                </select>
+        </label>
+            <label for="categoria">
+                Categoria da Inscrição:
+                <select name="categoria" id="categoria">
+                    <option disabled selected>Selecione uma categoria</option>
+                    <option>Corrida 3km [3RUN]</option>
+                    <option>Corrida 5km [5RUN]</option>
+                    <option>Caminhada 4km [4WALK]</option>
+                </select>
+        </label>
+            <label for="doacao" aria-required="">
+                Valor da Doação (R$):
+                <input type="number" name="doacao" id="doacao">
+            </label>
+
+            <button type="submit">Enviar Formulário</button>
+        </form>
+    </div>
+    <footer>
+    </footer>
+    <script src='./assets/index.js'></script>
+</body>
+</html>

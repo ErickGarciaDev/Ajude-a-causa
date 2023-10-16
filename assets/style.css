@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgb(53, 53, 53);
+}
+
+header h1 {
+    padding-left: 60px;
+}
+
+header .title {
+    color: #5E60CE
+}
+
+header .subtitle {
+    color: #4EA8DE;
+}
+
+header a {
+    margin-right: 100px;
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    color: #4EA8DE;
+}
+
+
+.form-container {
+    display: flex;
+    background-image: url('../images/run.jpg');
+    background-position: bottom ;
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    height: 60%;
+    width: 25vw;
+    min-width: 500px;
+    padding: 10px;
+    justify-content: center;
+    position: relative;
+    padding: 50px;
+}
+
+label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+input, select {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    position: absolute;
+    width: 200px;
+    left: 250px;
+}
+
+option[disabled] {
+    display: none;
+}
+
+button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: rgb(53, 53, 53);
+    height: 184px;
+}
